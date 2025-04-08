@@ -1,4 +1,4 @@
-# SIPAIC Specification
+# SIPAIC DB Specification
 
 Welcome to the official specification repository for **SIPAIC (Simple Internet Protocol Address Information Center)**. This repo defines the structure and rules for SIPAIC’s custom binary database formats designed for high-efficiency storage, and querying of IP-related data such as:
 
@@ -62,4 +62,4 @@ This specification is tightly coupled to the SIPAIC service design. As such, we 
 
 ## License
 
-This specification is open-sourced under the [MIT License](./LICENSE).
+This specification is open-sourced under the [MIT License](./LICENSE.md).
