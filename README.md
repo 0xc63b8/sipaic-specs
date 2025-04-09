@@ -7,7 +7,7 @@ Welcome to the official specification repository for **SIPAIC (Simple Internet P
 - ASN and routing information
 - Fast lookups with binary parsing
 
-This spec powers the core SIPAIC system and is versioned under the `/specs/v1` directory.
+This spec powers the core SIPAIC system and is versioned under the [/specs/v1](./specs/v1/index.md) directory.
 
 ---
 
