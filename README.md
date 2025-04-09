@@ -1,19 +1,19 @@
 # SIPAIC DB Specification
 
-Welcome to the official specification repository for **SIPAIC (Simple Internet Protocol Address Information Center)**. This repo defines the structure and rules for SIPAIC’s custom binary database formats designed for high-efficiency storage, and querying of IP-related data such as:
+Welcome to the official specification repository for **SIPAIC (Simple Internet Protocol Address Information Center) DB**. This repo defines the structure and rules for SIPAIC’s custom binary database formats designed for high-efficiency storage, and querying of IP-related data such as:
 
 - IPv4 / IPv6 block allocation
 - Country and RIR metadata
 - ASN and routing information
 - Fast lookups with binary parsing
 
-This spec powers the core SIPAIC system and is versioned under the [/specs/v1](./specs/v1/index.md) directory.
+This spec powers the core SIPAIC service and is versioned under the `./specs/` directory. See [/specs/v1](./specs/v1/index.md) for more details about v1.
 
 ---
 
-## What is SIPAIC?
+## What is SIPAIC DB?
 
-SIPAIC is a lightweight, efficient, custom binary-based db format service that provides lookup and processing for IP-related information such as:
+SIPAIC DB is a lightweight, efficient, custom binary-based db format service that provides lookup and processing for IP-related information such as:
 
 - ASN and Country allocations
 - IP block  and Country allocations
@@ -28,7 +28,7 @@ The binary format is optimized for fast reads, low memory overhead, and can be i
 
 ## Who is this for?
 
-- Developers writing **parsers or readers** for `.sdb` files
+- Developers writing **parsers or readers** for `.sipaicdb` files
 - Contributors maintaining or proposing extensions to the SIPAIC format
 - Systems integrating SIPAIC into their infrastructure or services
 
@@ -48,8 +48,8 @@ The binary format is optimized for fast reads, low memory overhead, and can be i
 ```dir
 sipaic-specs/
  ├── specs/ # Versioned specifications
- ├── glossary.md # Defined terminology
- └── CONTRIBUTING.md # Proposals & contribution guidelines
+ ├── CONTRIBUTING.md # Proposals & contribution guidelines
+ └── LICENSE.md # Specification License
 ```
 
 ---
